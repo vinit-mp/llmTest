@@ -1,0 +1,30 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+
+- intent: ask_help
+  examples: |
+    - what can you do?
+    - help me
+    - what are your capabilities?
+    - how can you assist me?
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - good night
+
+- intent: ask_time
+  examples: |
+    - what time is it?
+    - tell me the time
+    - what's the current time?
+    - time please
